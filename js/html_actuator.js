@@ -146,7 +146,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Friends Forever! :)" : "So called friend!";
+  var message = won ? "Pandavas! :)" : "Happy B'day!";
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
